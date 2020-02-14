@@ -1,9 +1,9 @@
 # Viachaslau Kulbitski
 
-fixrapdok@gmail.com
-Skype: vskreggae
-Whatsapp,  Telegram: +375292169179
-[likedin](https://www.linkedin.com/in/kubic)
+fixrapdok@gmail.com  
+Skype: vskreggae  
+Whatsapp,  Telegram: +375292169179  
+[likedin](https://www.linkedin.com/in/kubic)  
 [dribble](https://dribbble.com/Kubic)
 
 ## Summary
