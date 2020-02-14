@@ -3,7 +3,7 @@
 fixrapdok@gmail.com  
 Skype: vskreggae  
 Whatsapp,  Telegram: +375292169179  
-[Likedin](https://www.linkedin.com/in/kubic)  
+[Linkedin](https://www.linkedin.com/in/kubic)  
 [Dribble](https://dribbble.com/Kubic)
 
 ## Summary
