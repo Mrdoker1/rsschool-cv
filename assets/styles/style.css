@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100vh;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.links {
+  padding: 5px;
+  margin: 5px;
+  line-height: 10px;
+}
+
+
+.header-element h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-element {
+  width: 85%;
+}
+
+.main-element h2 {
+  text-align: left;
+}
