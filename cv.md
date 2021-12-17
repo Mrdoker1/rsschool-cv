@@ -22,6 +22,17 @@ My primary skills is Adobe Creative Suite, Figma/Scetch, Git, Visual Studio Code
 I've worked with Bitrix, Magento, Prestashop, Open Cart, Wordpress, Os Commerce platforms.
 *********
 
+## Code example
+Define a function that takes one integer argument and returns logical value true or false depending on if the integer is a prime.
+```
+function isPrime(num) {
+    for(let i = 2, s = Math.sqrt(num); i <= s; i++)
+        if(num % i === 0) return false; 
+    return num > 1;
+}
+``` 
+*********
+
 ## Education
 **PSU**: Faculty of Information Technologies, SoloLearn Course(HTML/CSS/JS), Coursera(HTML/CSS/JS/User Experience Principles and Processes).
 *********
