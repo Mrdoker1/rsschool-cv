@@ -1,2 +1,2 @@
-https://mrdoker1.github.io/rsschool-cv/cv
-https://mrdoker1.github.io/rsschool-cv
+1. https://mrdoker1.github.io/rsschool-cv/cv
+2. https://mrdoker1.github.io/rsschool-cv
