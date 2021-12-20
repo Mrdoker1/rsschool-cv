@@ -2,70 +2,252 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>HTML, CSS & Git Basics</title>
-    <link href="./assets/styles/style.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/styles/style.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon_package/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon_package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon_package/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicon_package/site.webmanifest">
+    <link rel="mask-icon" href="./assets/images/favicon_package/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Viachas Kul CV</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="header-container">
-                <div class="header-element">
-                    <img src="./assets/images/image.png" alt="photo" width="200">
-                </div>
-                <div class="header-element">
-                    <div class="links">
-                        <h1>Viachaslau Kulbitski</h1>
-                        <p>Email:
-                            <a href="mailto:fixrapdok@gmail.com">fixrapdok@gmail.com</a>
-                        </p>
-                        <p>Skype: vskreggae</p>
-                        <p>Whatsapp, Telegram:
-                            <a href="tel:+375292169179">+375292169179</a>
-                        </p>
-                        <span>
-                            <a href="https://www.linkedin.com/in/kubic">LinkedIn</a>
-                            <a href="https://dribbble.com/Kubic">Dribbble</a>
-                            <a href="https://mrdoker1.github.io/portfolio">Portfolio</a>
-                        </span>
-                    </div>
-                </div>
+    <header>
+        <div class="header-container">
+            <div class="header-element">
+                <img src="./assets/images/image.png" alt="logo" width="48">
             </div>
-        </header>
+            <div class="header-element">
+                <nav>
+                    <div title="Menu" id="menuToggle" onclick="return MenuHandler();">
+                        <input id="menu-checkbox" type="checkbox">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu" onclick="return enableScrolling();">
+                            <li><a href="#Accomplishments">Accomplishments</a></li>
+                            <li><a href="#Publications">Publications</a></li>
+                            <li><a href="#Experience">Experience </a></li>
+                            <li><a href="#Education">Education </a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#Tools">Tools</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
         <main>
             <div class="main-container">
                 <div class="main-element">
-                    <h2>Summary</h2>
-                    <p>Hello, I'm working as a UX/UI Designer, but I want to improve my skills in JS,markdown and web development. I want to move forward with with React, React Native library to gain knowledge in web applications development process. My
-                        main goal is to be able to deliver mobile and web applications.</p>
+                    <img src="./assets/images/image.png" alt="photo" width="100">
+                    <div>
+                        <h1>Viachas Kul</h1>
+                        <h2>UX & Interface Designer</h2>
+                    </div>
                 </div>
                 <div class="main-element">
-                    <h2>Education</h2>
-                    <p>PSU: Faculty of Information Technologies, SoloLearn Course(HTML/CSS/JS), Coursera(HTML/CSS/JS/User Experience Principles and Processes).</p>
+                    <div>
+                        <ul id="contact-list">
+                            <li><b>Portfolio:</b>
+                                <a href="https://mrdoker1.github.io/portfolio">github.io</a>
+                            </li>
+                            <li>
+                                <b>Email:</b>
+                                <a href="mailto:fixrapdok@gmail.com">fixrapdok@gmail.com</a>
+                            </li>
+                            <li>
+                                <b>Discord:</b>
+                                <a href="https://discordapp.com/users/208206113861140481">Viachas Kul(@Mrdoker1)</a>
+                            </li>
+                            <li>
+                                <b>Whatsapp, Telegram:</b>
+                                <a href="tel:+375292169179">+375(29)216-91-79</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="main-element">
+                    <section>
+                        <h3 id="Experience">Experience</h3>
+                        <div class="work">
+                            <div class="work-title">
+                                Andersen Lab
+                            </div>
+                            <div class="work-position">
+                                UI/UX designer
+                            </div>
+                            <div class="work-time">
+                                Apr 2021 – Present
+                            </div>
+                            <div class="description">
+                                Creating Web/Mobile Applications, CRM systems Creating UX artifacts such as CJM, User Flows, User Stories, etc.;<br> Creating sitemap and information architecture;<br> Producing qualitative and quantitative research and
+                                usability testing, social media graphics and digital marketing campaigns;<br> Cross-platform design experience;<br>Work in collaboration with key project team members, including tech leads, Strategy, PMs, and creative leads;
+                                <br>Experience working in an Agile development process.
+                            </div>
+                        </div>
+
+                        <div class="work">
+                            <div class="work-title">
+                                BelVG
+                            </div>
+                            <div class="work-position">
+                                UI/UX designer (E-commerce based)
+                            </div>
+                            <div class="work-time">
+                                Jan 2019 – Apr 2021
+                            </div>
+                            <div class="description">
+                                Design stores based on Magento/Presta/WooCommerce/Shopify/osCommerce;<br>UX Audit, Research; <br> Wireframing, interaction prototypes design; <br> Building complex interfaces, UI design;<br> BelVG Design System, UI Library,
+                                Custom Blocks Library;<br> Internal projects, website, style guides, marketing materials.
+                            </div>
+                        </div>
+
+                        <div class="work">
+                            <div class="work-title">
+                                Manao
+                            </div>
+                            <div class="work-position">
+                                Web Designer
+                            </div>
+                            <div class="work-time ">
+                                Mar 2017 – Jan 2019
+                            </div>
+                            <div class="description">
+                                Designing information architecture and creating interactive prototypes;<br>Website design, applications design, landing pages; Graphic design;<br>Illustration/icons and matte painting.<br>
+                            </div>
+                        </div>
+
+                        <div class="work ">
+                            <div class="work-title">
+                                Freelance
+                            </div>
+                            <div class="work-position">
+                                Local, Upwork
+                            </div>
+                            <div class="work-time">
+                                May 2016 – Mar 2017
+                            </div>
+                            <div class="description">
+                                Upwork freelancer - UI Design, Web Design, Marketing, local Smile Coffee - Print, Web Dev, Brand Identity.
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3 id="Education">Education</h3>
+                        <div class="work ">
+                            <div class="work-title">
+                                PSU
+                            </div>
+                            <div class="work-position">
+                                Faculty of information technologies
+                            </div>
+                            <div class="work-time">
+                                Sep 2013 – Aug 2017
+                            </div>
+                            <div class="description">
+                                A bachelor's degree, Information Technology Software.
+                            </div>
+                        </div>
+                    </section>
+
                 </div>
                 <div class="main-element">
-                    <h2>Experience</h2>
-                    <p>I started with my university experience from programming basics and completed my degree project which MySQL DB and C# for Dashboard in 2017. After I've graduated, I've switched to user-centered design (I was learning by practice and
-                        books like About Face, Nielsen Norman group articles, etc.). I've started working as a Web Designer in Minsk in 2018, completed a lots of projects with different sizes and domains (Ecommerce/Saas/Enterprise). I'm still working
-                        on a designer role.</p>
-                </div>
-                <div class="main-element">
-                    <h2>Skills</h2>
-                    <p>My primary skills is Adobe Creative Suite, Figma/Scetch, Git, Visual Studio Code, (JS/CSS/HTML/jQuery), MS/MySQL. I've worked with Bitrix, Magento, Prestashop, Open Cart, Wordpress, Os Commerce platforms.</p>
-                </div>
-                <div class="main-element">
-                    <h2>Code examples</h2>
-                    <p>Coming Soon...</p>
-                </div>
-                <div class="main-element">
-                    <h2>English</h2>
-                    <p>Now: B1. Next - B2. Attending English classes for 2 year, working with English speaking clients about a year, Intermediate/Upper.</a>
-                    </p>
+                    <section>
+                        <h3 id="Summary">Summary</h3>
+                        <div class=description>
+                            Hi, I am a (UX/UI) User Experience & Interface Designer with a technical background and user-centred design thinking, working with e-commerce and SaaS-oriented projects.<br> My responsibility is to make products clear and helpful
+                            to people and make the team's development process smooth and transparent. I enjoy teamwork and am always happy to share knowledge.
+                        </div>
+                    </section>
+                    <section>
+                        <h3 id="Skills">Skills</h3>
+                        <div class=description>
+                            <ul id="skills-list">
+                                <li>Responsive Web Design, UX, UI Design;</li>
+                                <li>Mobile Design (IOS,Android);</li>
+                                <li>Motion Design, Vector Illustration, Icons;</li>
+                                <li>CJM,Sketching, Wireframing, UML Diagrams;</li>
+                                <li>UX Audit, Competitor Analysis, Usability, AB Testing;</li>
+                                <li>User-Centered Design, Jobs-To-Be-Done methodology;</li>
+                                <li>Agile, Scrum/Kanban.</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <h3 id="Tools">Tools</h3>
+                        <div class=description>
+                            <ul id="tools-list">
+                                <li>Adobe Creative Suite (AI, PS, AE);</li>
+                                <li>Figma, Sketch, XD;</li>
+                                <li>Protopie, After Effects, Principle;</li>
+                                <li>Miro,Figjam; Axure RP, Invision, Marvel;</li>
+                                <li>JavaScript, HTML5, CSS;</li>
+                                <li>Tilda, Readymag, other page builders;</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <h3 id="Languages">Languages</h3>
+                        <div class=description>
+                            <p><b>English:</b> B2: Upper Intermediate</p>
+                            <p><b>French:</b> A2: Pre Intermediate</p>
+                            <p><b>Russian:</b> Native or Bilingual</p>
+                        </div>
+                    </section>
+                    <section>
+                        <h3 id="Accomplishments">Accomplishments</h3>
+                        <div class=links>
+                            <p>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/JTLHB5HWKPXK ">User Experience: Principles and Processes</a>
+                            </p>
+                            <p>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/TE7LB3BG3H6G ">Agile with Atlassian Jira</a>
+                            </p>
+                            <p>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/GP7SU8HFMZ2J ">JavaScript: Basics and Functions</a>
+                            </p>
+                            <p>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/3D6RXLUYN2MU ">HTML and CSS Fundamentals</a>
+                            </p>
+                            <p>
+                                <a href="https://inflat-course.ru/ ">Mad Rabbit Illustration Course</a>
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <h3 id="Publications">Publications</h3>
+                        <div class=links>
+                            <p>
+                                <a href="https://belvg.com/blog/how-to-create-landing-pages-in-magento.html ">How to Create Landing Pages in Magento?</a>
+                            </p>
+                            <p>
+                                <a href="https://belvg.com/blog/latest-web-design-trends.html ">What are the Latest Web Design Trends 2020?</a>
+                            </p>
+                        </div>
+                    </section>
                 </div>
             </div>
         </main>
+        <footer>
+            <div class="footer-container">
+                <a href="https://rs.school/js/" class="rss"></a>
+                <div><a href="https://github.com/Mrdoker1" class="github nav-link">Viachas Kul</a>© 2022 </div>
+
+            </div>
+        </footer>
     </div>
+
+    <script src="./assets/scripts/script.js"></script>
+
 </body>
 
 </html>
