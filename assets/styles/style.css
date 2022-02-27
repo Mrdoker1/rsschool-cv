@@ -306,6 +306,7 @@ footer a {
 code {
     display: block;
     font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
