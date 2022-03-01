@@ -50,6 +50,11 @@ main {
     justify-content: space-between;
 }
 
+.main-container:first-child .main-element:last-child {
+    display: flex;
+    align-items: center;
+}
+
 .main-element {
     width: calc(50% - 6%);
 }
