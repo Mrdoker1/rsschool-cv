@@ -353,11 +353,11 @@ code {
         width: 100%;
     }
     #menu li {
-        padding: 14px 0;
+        padding: 8px 0;
         list-style-type: none;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
         text-transform: uppercase;
     }
     .main-container {
