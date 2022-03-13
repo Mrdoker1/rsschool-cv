@@ -369,7 +369,8 @@ code {
     .header-container {
         display: block;
         position: fixed;
-        background-color: #ecf0f5;
+        background-color: #ecf0f552;
+        backdrop-filter: blur(8px);
         width: 100%;
     }
     .header-element img {
@@ -379,8 +380,12 @@ code {
     }
     main {
         margin-top: 70px;
+        gap: 0px;
     }
     header {
         margin-bottom: -10px;
+    }
+    h2 {
+        font-size: 22px;
     }
 }
