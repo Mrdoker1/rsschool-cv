@@ -378,6 +378,10 @@ code {
         padding: 20px;
         margin-top: 14px;
     }
+    #contact-list li {
+        font-size: 14px;
+        padding: 6px 0;
+    }
     main {
         margin-top: 70px;
         gap: 0px;
@@ -387,5 +391,8 @@ code {
     }
     h2 {
         font-size: 22px;
+    }
+    p {
+        margin: 8px 0;
     }
 }
