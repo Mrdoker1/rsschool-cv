@@ -369,7 +369,7 @@ code {
     .header-container {
         display: block;
         position: fixed;
-        background-color: #ecf0f552;
+        background-color: #ecf0f5ed;
         backdrop-filter: blur(8px);
         width: 100%;
     }
