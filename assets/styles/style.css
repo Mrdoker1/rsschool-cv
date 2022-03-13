@@ -325,6 +325,14 @@ code {
     overflow: auto;
 }
 
+.hide-content *:not(:nth-child(-n+3)) {
+    display: none;
+}
+
+.show-content * {
+    display: block;
+}
+
 @media screen and (max-width: 1000px) {
     .work-header {
         display: flex;
