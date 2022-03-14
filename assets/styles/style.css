@@ -56,6 +56,13 @@ main {
     align-items: center;
 }
 
+.main-container:first-child .main-element:first-child {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    flex-direction: column;
+}
+
 .main-element {
     width: calc(50% - 6%);
 }
@@ -73,7 +80,7 @@ h1 {
 h2 {
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 123%;
     /* or 34px */
     /* 3 */
