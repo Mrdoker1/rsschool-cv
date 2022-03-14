@@ -1,10 +1,7 @@
 let element = document.querySelector("#menu-checkbox");
+let showMoreButtons = document.querySelectorAll(".show-more")
 
-let buttons = [
-    document.querySelector("#show-more-works")
-];
-
-buttons.forEach(button => {
+showMoreButtons.forEach(button => {
     button.addEventListener("click", (e) => {
         e.preventDefault();
         showToggle(button.parentElement.firstElementChild.textContent, button);
@@ -33,18 +30,15 @@ function enableScrolling() {
 // showToggle
 function showToggle(type, button) {
 
-    if (type === 'Works') {
+    element = document.getElementById(type).children[1];
 
-        element = document.getElementById('Works').children[1];
-
-        if (element.classList.contains('hide-content')) {
-            element.classList.remove("hide-content");
-            element.classList.add("show-content");
-            button.textContent = 'Hide';
-        } else {
-            element.classList.remove("show-content");
-            element.classList.add("hide-content");
-            button.textContent = 'Show more';
-        }
+    if (element.classList.contains('hide-content')) {
+        element.classList.remove("hide-content");
+        element.classList.add("show-content");
+        button.textContent = 'Hide';
+    } else {
+        element.classList.remove("show-content");
+        element.classList.add("hide-content");
+        button.textContent = 'Show more';
     }
 }
