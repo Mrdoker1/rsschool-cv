@@ -59,7 +59,7 @@ button.with-icon {
     height: 38px;
     gap: 12px;
     font-size: 16px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     border: none;
 }
 
@@ -77,7 +77,7 @@ button.show-more {
     height: 32px;
     gap: 8px;
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     border: none;
 }
 
