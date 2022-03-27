@@ -145,7 +145,7 @@ h3 {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     /* 3 */
-    color: #3669b4;
+    color: #000;
 }
 
 section {
@@ -395,8 +395,12 @@ footer {
     font-size: 12px;
 }
 
-footer a {
+a {
     text-decoration: none;
+}
+
+a:hover {
+    color: #2e7df2;
 }
 
 code {
