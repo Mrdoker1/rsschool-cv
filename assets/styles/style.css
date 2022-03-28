@@ -7,16 +7,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.wrapper {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.header-element img {
-    display: none;
-}
-
 header {
     margin-bottom: 40px;
 }
@@ -37,17 +27,6 @@ main {
     display: flex;
     gap: 32px;
     flex-direction: column;
-}
-
-.floating-button {
-    display: block;
-    position: fixed;
-    right: 25px;
-    bottom: 25px;
-}
-
-.floating-button a:hover {
-    text-decoration: none;
 }
 
 button.with-icon {
@@ -84,6 +63,27 @@ button.show-more {
 button.show-more:hover {
     background: #85898f;
     color: white;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-element img {
+    display: none;
+}
+
+.floating-button {
+    display: block;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+.floating-button a:hover {
+    text-decoration: none;
 }
 
 .header-container {
