@@ -43,7 +43,7 @@ main {
     display: block;
     position: fixed;
     right: 25px;
-    top: 36px;
+    bottom: 25px;
 }
 
 .floating-button a:hover {
@@ -469,6 +469,10 @@ code {
     }
     .work-title.separator {
         display: none;
+    }
+    .floating-button {
+        right: 25px;
+        top: 36px;
     }
     main {
         margin-top: 70px;
