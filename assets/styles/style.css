@@ -65,6 +65,58 @@ button.show-more:hover {
     color: white;
 }
 
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    /* identical to box height, or 59px */
+    letter-spacing: -0.03em;
+    /* 2 */
+    color: #292929;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 123%;
+    /* or 34px */
+    /* 3 */
+    color: #3669b4;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 123%;
+    /* or 22px */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /* 3 */
+    color: #000;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+main .links {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #3669b4;
+}
+
+a:link {
+    color: #3669b4;
+}
+
+ul {
+    padding: 0px;
+}
+
 .wrapper {
     max-width: 1024px;
     margin: 0 auto;
@@ -113,43 +165,6 @@ button.show-more:hover {
 
 .main-element {
     width: calc(50% - 6%);
-}
-
-h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    /* identical to box height, or 59px */
-    letter-spacing: -0.03em;
-    /* 2 */
-    color: #292929;
-    margin-bottom: 24px;
-}
-
-h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 123%;
-    /* or 34px */
-    /* 3 */
-    color: #3669b4;
-}
-
-h3 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 123%;
-    /* or 22px */
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    /* 3 */
-    color: #000;
-}
-
-section {
-    margin-bottom: 40px;
 }
 
 .work {
@@ -213,21 +228,6 @@ section {
     /* or 25px */
     /* 2 */
     color: #292929;
-}
-
-main .links {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 160%;
-    color: #3669b4;
-}
-
-a:link {
-    color: #3669b4;
-}
-
-ul {
-    padding: 0px;
 }
 
 #contact-list li {
