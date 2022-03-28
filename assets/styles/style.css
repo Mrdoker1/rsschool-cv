@@ -42,8 +42,8 @@ main {
 .floating-button {
     display: block;
     position: fixed;
-    bottom: 32px;
-    right: 40px;
+    right: 25px;
+    top: 36px;
 }
 
 .floating-button a:hover {
