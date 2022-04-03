@@ -113,6 +113,14 @@ main .links {
     color: #3669b4;
 }
 
+.work-title a:link {
+    color: #292929;
+}
+
+.work-title a:link:hover {
+    color: #3669b4;
+}
+
 a:link {
     color: #3669b4;
 }
