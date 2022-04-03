@@ -113,6 +113,10 @@ main .links {
     color: #3669b4;
 }
 
+.info {
+    color: #292929;
+}
+
 .work-title a:link {
     color: #292929;
 }
@@ -501,7 +505,6 @@ code {
     .header-element img {
         display: block;
         padding: 20px;
-        margin-top: 14px;
     }
     #contact-list li {
         font-size: 16px;
@@ -512,19 +515,20 @@ code {
     }
     .floating-button {
         right: 25px;
-        top: 36px;
+        top: 25px;
     }
     .floating-button a {
         border-bottom: none;
     }
     main {
-        margin-top: 100px;
+        margin-top: 80px;
         gap: 0px;
     }
     header {
         margin-bottom: -10px;
     }
     h2 {
+        letter-spacing: -0.5px;
         font-size: 22px;
     }
     p {
