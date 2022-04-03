@@ -273,7 +273,9 @@ ul {
     font-weight: normal;
 }
 
-.contact-container {}
+.contact-container {
+    width: 100%;
+}
 
 
 /**Hamburger Menu**/
@@ -467,7 +469,7 @@ code {
 @media screen and (max-width: 768px) {
     #contact-list {
         column-count: 3;
-        column-gap: 40px;
+        column-gap: 30px;
     }
     .header-element {
         width: 100%;
@@ -484,7 +486,7 @@ code {
         text-transform: uppercase;
     }
     .main-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .main-container img {
         display: none;
@@ -516,7 +518,7 @@ code {
         border-bottom: none;
     }
     main {
-        margin-top: 70px;
+        margin-top: 100px;
         gap: 0px;
     }
     header {
