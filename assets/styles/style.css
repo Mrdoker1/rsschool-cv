@@ -257,7 +257,6 @@ ul {
 
 #contact-list {
     column-count: 3;
-    column-gap: 40px;
 }
 
 #contact-list li {
@@ -475,7 +474,7 @@ code {
 @media screen and (max-width: 768px) {
     #contact-list {
         column-count: 3;
-        column-gap: 30px;
+        column-gap: 0%;
     }
     .header-element {
         width: 100%;
@@ -533,7 +532,9 @@ code {
         letter-spacing: -0.5px;
         font-size: 22px;
     }
-    p {
-        margin: 8px 0;
+    #Works p,
+    #Accomplishments p,
+    #Publications p {
+        margin: 12px 0;
     }
 }
