@@ -571,3 +571,22 @@ code {
         margin: 12px 0;
     }
 }
+
+@media screen and (max-width: 440px) {
+    .floating-button {
+        right: 0px;
+        top: 0px;
+    }
+    button {
+        border-radius: 0px;
+    }
+    button.with-icon {
+        padding: 0 36px;
+        height: 78px;
+        font-size: 24px;
+        border: none;
+    }
+    button.with-icon span:first-child {
+        display: none;
+    }
+}
