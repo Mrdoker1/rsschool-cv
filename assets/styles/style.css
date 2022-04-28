@@ -589,6 +589,9 @@ code {
         border: none;
         gap: 0px;
     }
+    .mobile-heading h2 {
+        font-size: 13px;
+    }
     button.with-icon span:first-child {
         font-size: 12px;
     }
