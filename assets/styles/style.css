@@ -574,19 +574,21 @@ code {
 
 @media screen and (max-width: 440px) {
     .floating-button {
-        right: -1px;
+        right: 0px;
         top: 0px;
     }
     button {
         border-radius: 0px;
     }
     button.with-icon {
-        padding: 0 32px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
         height: 78px;
         font-size: 24px;
         border: none;
     }
     button.with-icon span:first-child {
-        display: none;
+        font-size: 12px;
     }
 }
