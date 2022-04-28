@@ -583,10 +583,11 @@ code {
     button.with-icon {
         display: flex;
         flex-direction: column-reverse;
-        justify-content: flex-end;
+        justify-content: center;
         height: 78px;
         font-size: 24px;
         border: none;
+        gap: 0px;
     }
     button.with-icon span:first-child {
         font-size: 12px;
