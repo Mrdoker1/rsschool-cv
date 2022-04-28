@@ -574,14 +574,14 @@ code {
 
 @media screen and (max-width: 440px) {
     .floating-button {
-        right: 0px;
+        right: -1px;
         top: 0px;
     }
     button {
         border-radius: 0px;
     }
     button.with-icon {
-        padding: 0 36px;
+        padding: 0 32px;
         height: 78px;
         font-size: 24px;
         border: none;
