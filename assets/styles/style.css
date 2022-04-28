@@ -5,6 +5,7 @@ body {
     line-height: 20px;
     /* font-family: "JetBrains Mono", monospace; */
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 header {
@@ -164,6 +165,31 @@ ul {
     justify-content: center;
     flex-direction: column;
     gap: 8px;
+}
+
+.mobile-heading {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.mobile-heading div {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #292929;
+    margin: 0;
+}
+
+.mobile-heading h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #3669b4;
+    margin: 0;
 }
 
 .main-container {
@@ -429,6 +455,7 @@ footer {
 a {
     text-decoration: none;
     border-bottom: 1px solid #c0d6e7;
+    transition: all .3s;
 }
 
 a:hover {
@@ -475,10 +502,18 @@ code {
         column-gap: 0%;
     }
     .header-element {
+        display: flex;
         width: 100%;
+        align-items: center;
     }
     .main-element {
         width: 100%;
+    }
+    .heading {
+        display: none;
+    }
+    .mobile-heading {
+        display: flex;
     }
     #menu li {
         padding: 8px 0;
@@ -503,7 +538,7 @@ code {
     }
     .header-element img {
         display: block;
-        padding: 20px;
+        padding: 15px;
     }
     #contact-list li {
         font-size: 16px;
@@ -514,17 +549,17 @@ code {
     }
     .floating-button {
         right: 25px;
-        top: 25px;
+        top: 20px;
     }
     .floating-button a {
         border-bottom: none;
     }
     main {
-        margin-top: 80px;
+        margin-top: 60px;
         gap: 0px;
     }
     header {
-        margin-bottom: -10px;
+        margin-bottom: 0;
     }
     h2 {
         letter-spacing: -0.5px;
