@@ -578,17 +578,18 @@ code {
 
 @media screen and (max-width: 440px) {
     .floating-button {
-        right: 0px;
-        top: 0px;
+        right: 20px;
+        top: 11px;
     }
     button {
         border-radius: 0px;
     }
     button.with-icon {
         display: flex;
+        padding: 0 12px;
         flex-direction: column-reverse;
         justify-content: center;
-        height: 64px;
+        height: 40px;
         font-size: 24px;
         border: none;
         gap: 0px;
