@@ -21,7 +21,7 @@ html {
 }
 
 img {
-    border-radius: 100px;
+    border-radius: 0px;
 }
 
 main {
@@ -542,7 +542,7 @@ code {
     }
     .header-element img {
         display: block;
-        padding: 15px;
+        padding: 8px 15px 8px 15px;
     }
     #contact-list li {
         font-size: 16px;
@@ -553,7 +553,7 @@ code {
     }
     .floating-button {
         right: 25px;
-        top: 20px;
+        top: 13px;
     }
     .floating-button a {
         border-bottom: none;
@@ -588,7 +588,7 @@ code {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        height: 78px;
+        height: 64px;
         font-size: 24px;
         border: none;
         gap: 0px;
