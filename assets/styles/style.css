@@ -502,6 +502,7 @@ code {
 
 @media screen and (max-width: 768px) {
     #contact-list {
+        margin: 0;
         column-count: 3;
         column-gap: 0%;
     }
@@ -577,6 +578,10 @@ code {
 }
 
 @media screen and (max-width: 440px) {
+    #contact-list li {
+        font-size: 14px;
+        padding: 6px 0;
+    }
     .floating-button {
         right: 20px;
         top: 11px;
